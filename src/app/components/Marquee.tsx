@@ -24,7 +24,7 @@ const headData :Healine[]  = data.data ;
             </div>
 
             <div className='flex-1 min-w-0 overflow-hidden'>
-                <MarqueeText direction="right" duration={20} className='py-1 text-sm sm:text-lg md:text-xl'>
+                <MarqueeText direction="right" duration={15} className='py-1 text-sm sm:text-lg md:text-xl'>
                 {
                     headData.map((h)=> 
                         <Link href={`/news/${h.id}`} key={h.id}> 
