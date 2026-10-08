@@ -3,6 +3,7 @@ import { Noto_Serif_Bengali } from "next/font/google";
 import "./globals.css";
 import Nevbar from "./components/Nevbar";
 import Marquee from "./components/Marquee";
+import Footer from "./components/Footer";
 
 const notoSerifBengali = Noto_Serif_Bengali({
   subsets: ["latin", "bengali"],
@@ -35,7 +36,7 @@ export default function RootLayout({
           {children}
           </div>
 
-        
+        <Footer/>
       </body>
     </html>
   );
